@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignacio Díaz Nieto - Computer Engineer & Cybersecurity Professional</title>
+    <meta name="description" content="Computer Engineer and Software Developer specializing in cybersecurity. Based in Madrid, Spain. Building reliable software and learning security fundamentals.">
+    <meta name="keywords" content="Computer Engineer, Software Developer, Cybersecurity, Madrid, Spain, Full Stack Developer">
+    <meta name="author" content="Ignacio Díaz Nieto">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ignaciodieznieto.com/">
+    <meta property="og:title" content="Ignacio Díaz Nieto - Computer Engineer & Cybersecurity Professional">
+    <meta property="og:description" content="Computer Engineer and Software Developer specializing in cybersecurity. Based in Madrid, Spain.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ignaciodieznieto.com/">
+    <meta property="twitter:title" content="Ignacio Díaz Nieto - Computer Engineer & Cybersecurity Professional">
+    <meta property="twitter:description" content="Computer Engineer and Software Developer specializing in cybersecurity. Based in Madrid, Spain.">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="main.js" as="script">
+    
+    <!-- External Libraries -->
+    <!-- Upgrade: Enhanced animation libraries for premium motion design -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+    
+    <!-- Styles -->
+    <!-- Upgrade: Preload fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ignacio Díaz Nieto",
+        "jobTitle": "Computer Engineer",
+        "description": "Software Developer specializing in cybersecurity",
+        "url": "https://ignaciodieznieto.com",
+        "email": "igdinieto@gmail.com",
+        "telephone": "+34636627200",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Madrid",
+            "addressCountry": "Spain"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Universidad Rey Juan Carlos"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Indra"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main" class="skip-link" data-i18n="skipToContent">Skip to content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- Upgrade: Enhanced logo with magnetic hover effect -->
+            <a href="#home" class="nav-logo magnetic" aria-label="Home">
+                <span class="logo-text" data-text="ID">ID</span>
+            </a>
+            
+            <ul class="nav-menu" role="menubar">
+                <!-- Upgrade: Enhanced nav links with magnetic hover -->
+                <li role="none"><a href="#about" class="nav-link magnetic" data-i18n="about">About</a></li>
+                <li role="none"><a href="#experience" class="nav-link magnetic" data-i18n="experience">Experience</a></li>
+                <li role="none"><a href="#projects" class="nav-link magnetic" data-i18n="projects">Projects</a></li>
+                <li role="none"><a href="#contact" class="nav-link magnetic" data-i18n="contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <!-- Upgrade: Enhanced theme toggle with smooth animation -->
+                <button class="theme-toggle magnetic" aria-label="Toggle theme" title="Toggle dark/light mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="lang-toggle magnetic" aria-label="Toggle language" title="Switch language">
+                    <span class="lang-text">ES</span>
+                </button>
+                <button class="mobile-menu-toggle magnetic" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="banner">
+            <!-- Upgrade: Parallax background layers -->
+            <div class="hero-bg">
+                <div class="hero-bg-layer" data-speed="0.2"></div>
+                <div class="hero-bg-layer" data-speed="0.5"></div>
+                <div class="hero-bg-layer" data-speed="0.8"></div>
+            </div>
+            
+            <div class="hero-container">
+                <div class="hero-content">
+                    <!-- Upgrade: Enhanced hero title with staggered animation -->
+                    <h1 class="hero-title">
+                        <span class="hero-name" data-reveal="hero">Ignacio Díaz Nieto</span>
+                        <span class="hero-subtitle" data-reveal="hero" data-delay="0.2">
+                            <span data-i18n="heroTitle">Computer Engineer • Software Developer • Cybersecurity Track</span>
+                        </span>
+                    </h1>
+                    
+                    <!-- Upgrade: Enhanced typing animation container -->
+                    <div class="hero-typing" data-reveal="hero" data-delay="0.4">
+                        <span id="typed-text"></span>
+                    </div>
+                    
+                    <p class="hero-description" data-reveal="hero" data-delay="0.6" data-i18n="heroDescription">
+                        Building reliable software, learning security, and shipping products that people use.
+                    </p>
+                    
+                    <!-- Upgrade: Enhanced CTA buttons with magnetic hover and ripple effects -->
+                    <div class="hero-cta" data-reveal="hero" data-delay="0.8">
+                        <a href="#contact" class="btn btn-primary magnetic ripple" data-i18n="contactMe">Contact Me</a>
+                        <a href="/assets/cv-ignacio-diaz-nieto.pdf" class="btn btn-secondary magnetic ripple" download data-i18n="viewCV">View CV</a>
+                        <a href="#projects" class="btn btn-outline magnetic ripple" data-i18n="viewProjects">View Projects</a>
+                    </div>
+                </div>
+                
+                <!-- Upgrade: Enhanced hero visual with 3D tilt effect -->
+                <div class="hero-visual">
+                    <div class="hero-animation tilt-card" data-reveal="hero" data-delay="1.0">
+                        <div class="floating-shapes">
+                            <div class="shape shape-1" data-parallax="0.1"></div>
+                            <div class="shape shape-2" data-parallax="0.2"></div>
+                            <div class="shape shape-3" data-parallax="0.15"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="about" role="region" aria-labelledby="about-title">
+            <div class="container">
+                <!-- Upgrade: Enhanced section title with reveal animation -->
+                <h2 id="about-title" class="section-title" data-reveal="section" data-i18n="about">About</h2>
+                
+                <div class="about-content">
+                    <!-- Upgrade: Enhanced about text with staggered reveals -->
+                    <div class="about-text" data-reveal="stagger">
+                        <p class="about-bio" data-reveal-item data-i18n="aboutBio">
+                            Motivated and adaptable computer engineer with international experience. Strong in software development, Linux, debugging, and systems integration. Passionate about solving real-world problems with clean code and great UX. Currently pivoting into cybersecurity via certifications and a master's program.
+                        </p>
+                        
+                        <!-- Upgrade: Enhanced facts grid with hover effects -->
+                        <div class="about-facts" data-reveal-item>
+                            <div class="fact-item glass-card">
+                                <span class="fact-icon">📍</span>
+                                <span data-i18n="locationMadrid">Madrid, Spain</span>
+                            </div>
+                            <div class="fact-item glass-card">
+                                <span class="fact-icon">✈️</span>
+                                <span data-i18n="willingToTravel">Willing to travel</span>
+                            </div>
+                            <div class="fact-item glass-card">
+                                <span class="fact-icon">🚗</span>
+                                <span data-i18n="drivingLicense">Driving license B</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Upgrade: Add focus highlight section -->
+                        <div class="focus-section" data-reveal-item>
+                            <h3 class="focus-title">Currently Focusing On</h3>
+                            <div class="focus-items">
+                                <div class="focus-item">
+                                    <span class="focus-icon">🛡️</span>
+                                    <span>CompTIA Security+ Certification</span>
+                                </div>
+                                <div class="focus-item">
+                                    <span class="focus-icon">🎓</span>
+                                    <span>Master's in Cybersecurity (Starting Oct 2025)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Upgrade: Enhanced skills container with glass effect -->
+                    <div class="skills-container glass-card" data-reveal="stagger">
+                        <h3 class="skills-title" data-reveal-item data-i18n="skills">Skills</h3>
+                        
+                        <!-- Upgrade: Enhanced skills categories with filter pills -->
+                        <div class="skills-filter" data-reveal-item>
+                            <button class="filter-pill active" data-filter="all">All</button>
+                            <button class="filter-pill" data-filter="languages">Languages</button>
+                            <button class="filter-pill" data-filter="core">Core</button>
+                            <button class="filter-pill" data-filter="soft">Soft</button>
+                        </div>
+                        
+                        <div class="skills-category" data-category="languages" data-reveal-item>
+                            <h4 data-i18n="languages">Languages</h4>
+                            <div class="skills-grid">
+                                <span class="skill-chip magnetic" data-tooltip="Systems programming">C++</span>
+                                <span class="skill-chip magnetic" data-tooltip="Enterprise applications">Java</span>
+                                <span class="skill-chip magnetic" data-tooltip="Scripting & automation">Python</span>
+                                <span class="skill-chip magnetic" data-tooltip="Database management">SQL</span>
+                                <span class="skill-chip magnetic" data-tooltip="Web development">HTML/CSS/JS</span>
+                                <span class="skill-chip magnetic" data-tooltip="Academic projects">Pascal</span>
+                                <span class="skill-chip magnetic" data-tooltip="Functional programming">Scala</span>
+                                <span class="skill-chip magnetic" data-tooltip="Data analysis">R</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category" data-category="core" data-reveal-item>
+                            <h4 data-i18n="coreSkills">Core Skills</h4>
+                            <!-- Upgrade: Enhanced skill bars with animation -->
+                            <div class="skills-bars" data-animate-bars>
+                                <div class="skill-bar">
+                                    <span class="skill-name" data-i18n="softwareDev">Software Development</span>
+                                    <div class="skill-progress">
+                                        <div class="skill-fill" data-percent="90" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="skill-name" data-i18n="linuxShell">Linux & Shell Scripting</span>
+                                    <div class="skill-progress">
+                                        <div class="skill-fill" data-percent="85" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="skill-name" data-i18n="networksSecurity">Networks & Cybersecurity</span>
+                                    <div class="skill-progress">
+                                        <div class="skill-fill" data-percent="75" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="skill-name" data-i18n="agileJira">Agile & Jira</span>
+                                    <div class="skill-progress">
+                                        <div class="skill-fill" data-percent="80" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" role="progressbar"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Upgrade: Add soft skills category -->
+                        <div class="skills-category" data-category="soft" data-reveal-item>
+                            <h4>Soft Skills</h4>
+                            <div class="skills-grid">
+                                <span class="skill-chip magnetic" data-tooltip="Complex problem analysis">Problem-solving</span>
+                                <span class="skill-chip magnetic" data-tooltip="Quick technology adoption">Fast Learning</span>
+                                <span class="skill-chip magnetic" data-tooltip="Collaborative development">Teamwork</span>
+                                <span class="skill-chip magnetic" data-tooltip="Cross-cultural experience">International Mindset</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category" data-category="languages" data-reveal-item>
+                            <h4 data-i18n="spokenLanguages">Languages</h4>
+                            <!-- Upgrade: Enhanced language skills with animated bars -->
+                            <div class="language-skills" data-animate-languages>
+                                <div class="language-item glass-card">
+                                    <span class="flag">🇪🇸</span>
+                                    <span class="language-name" data-i18n="spanish">Spanish</span>
+                                    <div class="language-progress">
+                                        <div class="language-fill" data-percent="100"></div>
+                                    </div>
+                                    <span class="language-level" data-i18n="native">Native</span>
+                                </div>
+                                <div class="language-item glass-card">
+                                    <span class="flag">🇬🇧</span>
+                                    <span class="language-name" data-i18n="english">English</span>
+                                    <div class="language-progress">
+                                        <div class="language-fill" data-percent="85"></div>
+                                    </div>
+                                    <span class="language-level">C1</span>
+                                </div>
+                                <div class="language-item glass-card">
+                                    <span class="flag">🇨🇳</span>
+                                    <span class="language-name" data-i18n="chinese">Chinese</span>
+                                    <div class="language-progress">
+                                        <div class="language-fill" data-percent="40"></div>
+                                    </div>
+                                    <span class="language-level">HSK3</span>
+                                </div>
+                                <div class="language-item glass-card">
+                                    <span class="flag">🇫🇷</span>
+                                    <span class="language-name" data-i18n="french">French</span>
+                                    <div class="language-progress">
+                                        <div class="language-fill" data-percent="25"></div>
+                                    </div>
+                                    <span class="language-level">A2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section id="experience" class="experience" role="region" aria-labelledby="experience-title">
+            <div class="container">
+                <h2 id="experience-title" class="section-title" data-reveal="section" data-i18n="experience">Experience</h2>
+                
+                <!-- Upgrade: Enhanced timeline with progress indicator -->
+                <div class="timeline" data-reveal="timeline">
+                    <div class="timeline-progress"></div>
+                    <div class="timeline-item glass-card tilt-card" data-year="2025" data-reveal-item>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="job-title" data-i18n="softwareEngineerIndra">Software Engineer — Indra</h3>
+                            <span class="job-period">Feb 2025 – Present</span>
+                            <p class="job-description" data-i18n="indraDescription">
+                                Focus on software development, debugging, Linux environments, and Agile methodologies using Jira.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item glass-card tilt-card" data-year="2023" data-reveal-item>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="job-title" data-i18n="internMediaset">Software Engineering Intern — Mediaset España</h3>
+                            <span class="job-period">Oct 2023 – Jan 2024</span>
+                            <p class="job-description" data-i18n="mediasetDescription">
+                                System Manager Department. Developed internal tooling, troubleshooting, and systems support.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item glass-card tilt-card" data-year="2018" data-reveal-item>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="job-title" data-i18n="privateTutor">Private Tutor</h3>
+                            <span class="job-period">2018 – 2020</span>
+                            <p class="job-description" data-i18n="tutorDescription">
+                                Mathematics and Physics tutoring, developing strong communication and teaching skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-section">
+                    <h3 class="subsection-title" data-reveal="section" data-i18n="education">Education & Programs</h3>
+                    
+                    <div class="education-grid" data-reveal="stagger">
+                        <div class="education-card glass-card tilt-card" data-reveal-item>
+                            <h4 data-i18n="bscComputer">B.Sc. Computer Engineering</h4>
+                            <p class="institution">Universidad Rey Juan Carlos</p>
+                            <span class="period">2020–2024</span>
+                        </div>
+                        
+                        <div class="education-card glass-card tilt-card" data-reveal-item>
+                            <h4 data-i18n="masterCyber">Master's in Cybersecurity</h4>
+                            <p class="institution">Universidad Europea</p>
+                            <span class="period">Oct 2025 – Jun 2026</span>
+                        </div>
+                        
+                        <div class="education-card mobility glass-card tilt-card" data-reveal-item>
+                            <h4 data-i18n="academicMobility">Academic Mobility</h4>
+                            <p class="institution">National Technical University of Athens</p>
+                            <span class="period">Feb 2024 – Jul 2024</span>
+                            <p class="institution">AGH University of Krakow</p>
+                            <span class="period">Sept 2022 – Feb 2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="certifications-section">
+                    <h3 class="subsection-title" data-reveal="section" data-i18n="certifications">Certifications</h3>
+                    
+                    <!-- Upgrade: Enhanced certification cards with tooltips -->
+                    <div class="cert-grid" data-reveal="stagger">
+                        <div class="cert-card completed glass-card tilt-card" data-reveal-item data-tooltip="Information Security Management">
+                            <div class="cert-status">✓</div>
+                            <h4>ISO/IEC 27001 Foundation</h4>
+                            <p class="cert-provider">CertiProf</p>
+                            <span class="cert-status-text" data-i18n="completed">Completed</span>
+                        </div>
+                        
+                        <div class="cert-card in-progress glass-card tilt-card" data-reveal-item data-tooltip="Cybersecurity Fundamentals">
+                            <div class="cert-status">⏳</div>
+                            <h4>CompTIA Security+ (SY0-701)</h4>
+                            <p class="cert-provider">CompTIA</p>
+                            <span class="cert-status-text" data-i18n="inProgress">In Progress</span>
+                        </div>
+                        
+                        <div class="cert-card completed glass-card tilt-card" data-reveal-item data-tooltip="Digital Marketing Fundamentals">
+                            <div class="cert-status">✓</div>
+                            <h4 data-i18n="googleActivate">Google Activate</h4>
+                            <p class="cert-provider" data-i18n="ecommerceMarketing">E-commerce & Digital Marketing</p>
+                            <span class="cert-status-text">2020</span>
+                        </div>
+                        
+                        <div class="cert-card completed glass-card tilt-card" data-reveal-item data-tooltip="Security Awareness Training">
+                            <div class="cert-status">✓</div>
+                            <h4 data-i18n="cyberFundamentals">Cybersecurity Fundamentals</h4>
+                            <p class="cert-provider">Udemy</p>
+                            <span class="cert-status-text">2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects" role="region" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title" data-reveal="section" data-i18n="projects">Projects</h2>
+                
+                <!-- Upgrade: Enhanced project grid with staggered reveals -->
+                <div class="projects-grid" data-reveal="stagger">
+                    <article class="project-card featured glass-card tilt-card" data-reveal-item>
+                        <div class="project-image">
+                            <!-- Upgrade: Optimized image with WebP support -->
+                            <picture>
+                                <source srcset="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800&fm=webp" type="image/webp">
+                                <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                                     alt="Sofía Martín Campo Portfolio Website" 
+                                     loading="lazy"
+                                     width="800"
+                                     height="450">
+                            </picture>
+                            <div class="project-overlay">
+                                <a href="https://sofiamartincampo.com/" target="_blank" rel="noopener noreferrer" class="project-link magnetic ripple">
+                                    <span data-i18n="visitSite">Visit Site</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15,3 21,3 21,9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">Sofía Martín Campo — Portfolio Website</h3>
+                            <p class="project-role" data-i18n="leadDev">Lead Developer (Design Support)</p>
+                            
+                            <p class="project-description" data-i18n="sofiaDescription">
+                                Performance-optimized portfolio website with custom animations, responsive layout, and SEO optimization. Implemented CMS integration and achieved 95+ Lighthouse scores.
+                            </p>
+                            
+                            <!-- Upgrade: Enhanced project highlights with hover effects -->
+                            <div class="project-highlights">
+                                <span class="highlight-item magnetic" data-i18n="performanceOpt">Performance Optimization</span>
+                                <span class="highlight-item magnetic" data-i18n="responsiveLayout">Responsive Layout</span>
+                                <span class="highlight-item magnetic" data-i18n="customAnimations">Custom Animations</span>
+                                <span class="highlight-item magnetic">CMS</span>
+                                <span class="highlight-item magnetic">SEO</span>
+                            </div>
+                            
+                            <!-- Upgrade: Enhanced metrics with counter animation -->
+                            <div class="project-metrics" data-animate-counters>
+                                <div class="metric">
+                                    <span class="metric-value" data-count="95">0</span>
+                                    <span class="metric-label">Lighthouse</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">0.8s</span>
+                                    <span class="metric-label" data-i18n="loadTime">Load Time</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value" data-count="100">0</span>
+                                    <span class="metric-label" data-i18n="responsive">Responsive</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card featured glass-card tilt-card" data-reveal-item>
+                        <div class="project-image">
+                            <picture>
+                                <source srcset="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&w=800&fm=webp" type="image/webp">
+                                <img src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                                     alt="OTTO Madrid Brand Website" 
+                                     loading="lazy"
+                                     width="800"
+                                     height="450">
+                            </picture>
+                            <div class="project-overlay">
+                                <a href="https://ottomadrid.es/" target="_blank" rel="noopener noreferrer" class="project-link magnetic ripple">
+                                    <span data-i18n="visitSite">Visit Site</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15,3 21,3 21,9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">OTTO Madrid — Brand & Website</h3>
+                            <p class="project-role" data-i18n="fullStackDev">Full-Stack / Front-End Implementation</p>
+                            
+                            <p class="project-description" data-i18n="ottoDescription">
+                                Complete brand system and website implementation with component library, analytics integration, and deployment pipeline. Focused on fast load times and SEO optimization.
+                            </p>
+                            
+                            <div class="project-highlights">
+                                <span class="highlight-item magnetic" data-i18n="brandSystem">Brand System</span>
+                                <span class="highlight-item magnetic" data-i18n="componentLib">Component Library</span>
+                                <span class="highlight-item magnetic" data-i18n="analytics">Analytics</span>
+                                <span class="highlight-item magnetic" data-i18n="fastLoad">Fast Load</span>
+                                <span class="highlight-item magnetic" data-i18n="deployPipeline">Deploy Pipeline</span>
+                            </div>
+                            
+                            <div class="project-metrics" data-animate-counters>
+                                <div class="metric">
+                                    <span class="metric-value" data-count="92">0</span>
+                                    <span class="metric-label">Lighthouse</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">1.2s</span>
+                                    <span class="metric-label" data-i18n="loadTime">Load Time</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value" data-count="15">0</span>
+                                    <span class="metric-label" data-i18n="components">Components</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact" role="region" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title" data-reveal="section" data-i18n="contact">Contact</h2>
+                
+                <div class="contact-content">
+                    <!-- Upgrade: Enhanced contact info with staggered reveals -->
+                    <div class="contact-info" data-reveal="stagger">
+                        <h3 data-reveal-item data-i18n="getInTouch">Get In Touch</h3>
+                        <p data-reveal-item data-i18n="contactDescription">
+                            Ready to discuss opportunities or collaborate on projects? Let's connect!
+                        </p>
+                        
+                        <div class="contact-methods" data-reveal-item>
+                            <a href="mailto:igdinieto@gmail.com" class="contact-method glass-card magnetic">
+                                <span class="contact-icon">📧</span>
+                                <span class="contact-text">igdinieto@gmail.com</span>
+                            </a>
+                            <a href="tel:+34636627200" class="contact-method glass-card magnetic">
+                                <span class="contact-icon">📱</span>
+                                <span class="contact-text">+34 636 627 200</span>
+                            </a>
+                            <div class="contact-method glass-card">
+                                <span class="contact-icon">📍</span>
+                                <span class="contact-text" data-i18n="locationMadrid">Madrid, Spain</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Upgrade: Enhanced social links with hover effects -->
+                        <div class="social-links" data-reveal-item>
+                            <a href="https://linkedin.com/in/ignacio-diaz-nieto" target="_blank" rel="noopener noreferrer" class="social-link magnetic" aria-label="LinkedIn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/ignacio-diez-nieto" target="_blank" rel="noopener noreferrer" class="social-link magnetic" aria-label="GitHub">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Upgrade: Enhanced contact form with glass effect -->
+                    <form class="contact-form glass-card" id="contact-form" name="contact" method="POST" data-netlify="true" data-reveal="stagger">
+                        <!-- Upgrade: Add honeypot for spam protection -->
+                        <input type="hidden" name="form-name" value="contact">
+                        <div style="display: none;">
+                            <input name="bot-field" tabindex="-1" autocomplete="off">
+                        </div>
+                        
+                        <div class="form-group" data-reveal-item>
+                            <label for="name" data-i18n="name">Name</label>
+                            <input type="text" id="name" name="name" required aria-describedby="name-error">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group" data-reveal-item>
+                            <label for="email" data-i18n="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-describedby="email-error">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group" data-reveal-item>
+                            <label for="subject" data-i18n="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required aria-describedby="subject-error">
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group" data-reveal-item>
+                            <label for="message" data-i18n="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <!-- Upgrade: Enhanced submit button with ripple effect -->
+                        <button type="submit" class="btn btn-primary submit-btn magnetic ripple" data-reveal-item data-i18n="sendMessage">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">Sending...</span>
+                        </button>
+                        
+                        <div class="form-success" id="form-success" data-reveal-item>
+                            <span data-i18n="messageSent">Message sent successfully! I'll get back to you soon.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content" data-reveal="fade">
+                <p>&copy; 2025 Ignacio Díaz Nieto. <span data-i18n="allRightsReserved">All rights reserved.</span></p>
+                <p class="footer-note" data-i18n="builtWith">Built with vanilla HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Command Palette -->
+    <div class="command-palette" id="command-palette" role="dialog" aria-modal="true" aria-labelledby="palette-title" style="display: none;">
+        <div class="palette-container">
+            <h2 id="palette-title" class="sr-only">Command Palette</h2>
+            <input type="text" class="palette-input" placeholder="Search sections..." id="palette-input" aria-label="Search sections">
+            <ul class="palette-results" id="palette-results" role="listbox"></ul>
+        </div>
+    </div>
+    
+    <!-- Upgrade: Add tooltip container -->
+    <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true">
+        <div class="tooltip-content"></div>
+        <div class="tooltip-arrow"></div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
